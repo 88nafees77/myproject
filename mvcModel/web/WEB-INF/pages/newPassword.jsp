@@ -25,10 +25,10 @@
        
         <div class="container-fluid">
             <div class="container center_div">
+                <% String str=request.getParameter("email"); %>
                 
-                <% String str= session.getAttribute("email").toString(); %>
                 
-                <form action="fc/?page=Updater&type=model&email=xyz" method="get" class="centre">
+                <form action="fc/?page=Updater&type=model&email=str" method="get" class="centre">
                     <input class="form-control" type="text" name="password" placeholder="Enter New Password">
                     <input class="form-control" type="text" name="password" placeholder="Enter Again Password">
                     <button class="button btn btn-primary" type="submit">change</button>
