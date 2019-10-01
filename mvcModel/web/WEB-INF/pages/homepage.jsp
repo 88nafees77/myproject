@@ -28,5 +28,11 @@
             
        
         <h1>login successfull!</h1>
+        <form method="post" action="fc/?page=Login&type=model" enctype="multipart/form-data">
+            <input type="file" name="file"/>
+            <input type="submit" value="upload"/>
+            
+        </form>
+        
     </body>
 </html>
