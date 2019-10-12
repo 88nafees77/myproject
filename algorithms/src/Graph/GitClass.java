@@ -10,5 +10,5 @@ package Graph;
  * @author nafees
  */
 public class GitClass {
-    
+    int a=0;
 }
