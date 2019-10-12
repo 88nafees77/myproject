@@ -11,4 +11,5 @@ package Graph;
  */
 public class GitClass {
     int a=0;
+    int j=0;
 }
